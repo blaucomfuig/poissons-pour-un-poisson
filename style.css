@@ -1,0 +1,12 @@
+.item-imagen {
+    display: block;
+    width: 18rem;
+    height: 18rem;
+}
+
+.item-imagen img {
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}

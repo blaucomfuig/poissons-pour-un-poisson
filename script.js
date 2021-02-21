@@ -21,7 +21,9 @@ function getPececito() {
             const randomPececito = Math.floor(Math.random() * imagenPececito.length);
             console.log(PEZ);
             PEZ.innerHTML = `<h1>${nombrePececito[randomPececito]}</h1>
-            <img src="${imagenPececito[randomPececito]}" class="pez" alt="... ">`
+            <div class="item-imagen">
+            <img src="${imagenPececito[randomPececito]}" class="pez justify-content-center" alt="... ">
+            </div>`
 
 
         } catch (error) {
