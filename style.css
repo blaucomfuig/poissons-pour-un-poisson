@@ -72,8 +72,8 @@ h1 {
 .burbuja1{
     background: linear-gradient(
         35deg,
-        #01a5ced7,
-        #7dfbffb2
+        #01a5cea1,
+        #7dfbff85
       );
     left: 25%;
     animation-timing-function: linear;
@@ -82,9 +82,9 @@ h1 {
 .burbuja2{
     background:linear-gradient(
         35deg,
-        #01a5ced7,
-        #7dfbffb2
-      );;
+        #01a5cea1,
+        #7dfbff85
+      );
     left: 50%;
     animation-timing-function: ease-out;
 }
@@ -92,9 +92,9 @@ h1 {
 .burbuja3{
     background: linear-gradient(
         35deg,
-        #01a5ced7,
-        #7dfbffb2
-      );;
+        #01a5cea1,
+        #7dfbff85
+      );
     left: 75%;
     animation-timing-function: ease-out
 }
@@ -102,9 +102,9 @@ h1 {
 .burbuja4{
     background: linear-gradient(
         35deg,
-        #01a5ced7,
-        #7dfbffb2
-      );;
+        #01a5cea1,
+        #7dfbff85
+      );
     left: 11%;
     animation-timing-function: linear
 }
@@ -112,81 +112,81 @@ h1 {
 .burbuja5{
     background: linear-gradient(
         35deg,
-        #01a5ced7,
-        #7dfbffb2
-      );;
+        #01a5cea1,
+        #7dfbff85
+      );
     left: 85%;
     animation-timing-function: ease-in-out
 }
 .burbuja6{
     background: linear-gradient(
         35deg,
-        #01a5ced7,
-        #7dfbffb2
-      );;
+        #01a5cea1,
+        #7dfbff85
+      );
     left: 60%;
     animation-timing-function: linear
 }
 .burbuja7{
     background: linear-gradient(
         35deg,
-        #01a5ced7,
-        #7dfbffb2
-      );;
+        #01a5cea1,
+        #7dfbff85
+      );
     left: 99%;
     animation-timing-function: linear
 }
 .burbuja8{
     background: linear-gradient(
         35deg,
-        #01a5ced7,
-        #7dfbffb2
-      );;
+        #01a5cea1,
+        #7dfbff85
+      );
     left: 85%;
     animation-timing-function: ease-in
 }
 .burbuja9{
     background: linear-gradient(
         35deg,
-        #01a5ced7,
-        #7dfbffb2
-      );;
+        #01a5cea1,
+        #7dfbff85
+      );
     left: 85%;
     animation-timing-function: ease-out
 }
 .burbuja10{
     background: linear-gradient(
         35deg,
-        #01a5ced7,
-        #7dfbffb2
-      );;
+        #01a5cea1,
+        #7dfbff85
+      );
     left: 15%;
     animation-timing-function: ease-out
 }
 .burbuja11{
     background: linear-gradient(
         35deg,
-        #01a5ced7,
-        #7dfbffb2
-      );;
+        #01a5cea1,
+        #7dfbff85
+      );
     left: 50%;
     animation-timing-function: ease-in
 }
 .burbuja12{
     background: linear-gradient(
         35deg,
-        #01a5ced7,
-        #7dfbffb2
-      );;
+        #01a5cea1,
+        #7dfbff85
+      );
     left: 61%;
     animation-timing-function: linear
 }
 .burbuja13{
     background: linear-gradient(
         35deg,
-        #01a5ced7,
-        #7dfbffb2
-      );;
+        #01a5cea1,
+        #7dfbff85
+      );
     left: 23%;
     animation-timing-function: ease-out
 }
