@@ -6,7 +6,7 @@ h1 {
 }
 
 .pregunta {
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .nombre-pez{
@@ -24,4 +24,208 @@ h1 {
     overflow: hidden;
     object-fit: cover;
     object-position: center;
+}
+
+.balls {
+    border-radius: 50%;
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    top: 100%;
+    animation-name: jump;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
+.balls2 {
+    border-radius: 50%;
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    top: 100%;
+    animation-name: jump2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.balls3 {
+    border-radius: 50%;
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    top: 100%;
+    animation-name: jump3;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+.balls4 {
+    border-radius: 50%;
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    top: 100%;
+    animation-name: jump4;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.burbuja1{
+    background: linear-gradient(
+        35deg,
+        #01a5ced7,
+        #7dfbffb2
+      );
+    left: 25%;
+    animation-timing-function: linear;
+}
+
+.burbuja2{
+    background:linear-gradient(
+        35deg,
+        #01a5ced7,
+        #7dfbffb2
+      );;
+    left: 50%;
+    animation-timing-function: ease-out;
+}
+
+.burbuja3{
+    background: linear-gradient(
+        35deg,
+        #01a5ced7,
+        #7dfbffb2
+      );;
+    left: 75%;
+    animation-timing-function: ease-out
+}
+
+.burbuja4{
+    background: linear-gradient(
+        35deg,
+        #01a5ced7,
+        #7dfbffb2
+      );;
+    left: 11%;
+    animation-timing-function: linear
+}
+
+.burbuja5{
+    background: linear-gradient(
+        35deg,
+        #01a5ced7,
+        #7dfbffb2
+      );;
+    left: 85%;
+    animation-timing-function: ease-in-out
+}
+.burbuja6{
+    background: linear-gradient(
+        35deg,
+        #01a5ced7,
+        #7dfbffb2
+      );;
+    left: 60%;
+    animation-timing-function: linear
+}
+.burbuja7{
+    background: linear-gradient(
+        35deg,
+        #01a5ced7,
+        #7dfbffb2
+      );;
+    left: 99%;
+    animation-timing-function: linear
+}
+.burbuja8{
+    background: linear-gradient(
+        35deg,
+        #01a5ced7,
+        #7dfbffb2
+      );;
+    left: 85%;
+    animation-timing-function: ease-in
+}
+.burbuja9{
+    background: linear-gradient(
+        35deg,
+        #01a5ced7,
+        #7dfbffb2
+      );;
+    left: 85%;
+    animation-timing-function: ease-out
+}
+.burbuja10{
+    background: linear-gradient(
+        35deg,
+        #01a5ced7,
+        #7dfbffb2
+      );;
+    left: 15%;
+    animation-timing-function: ease-out
+}
+.burbuja11{
+    background: linear-gradient(
+        35deg,
+        #01a5ced7,
+        #7dfbffb2
+      );;
+    left: 50%;
+    animation-timing-function: ease-in
+}
+.burbuja12{
+    background: linear-gradient(
+        35deg,
+        #01a5ced7,
+        #7dfbffb2
+      );;
+    left: 61%;
+    animation-timing-function: linear
+}
+.burbuja13{
+    background: linear-gradient(
+        35deg,
+        #01a5ced7,
+        #7dfbffb2
+      );;
+    left: 23%;
+    animation-timing-function: ease-out
+}
+
+@keyframes jump {
+    50% {
+      top: -50%;
+    }
+    100%{
+    top: -100%;
+    }
+}
+@keyframes jump2 {
+    0% {
+      top: -110%;
+    }
+    80% {
+        top: -70%;
+      }
+    100%{
+    top: -100%;
+    }
+}
+@keyframes jump3 {
+    0% {
+      top: -110%;
+    }
+    50% {
+        top: -80%;
+      }
+    100%{
+    top: -100%;
+    }
+}
+@keyframes jump4 {
+    50% {
+        top: -50%;
+      }
+    100%{
+    top: -100%;
+    }
 }
