@@ -12,7 +12,7 @@ btnPoisson.addEventListener('click', () => {
 function getPececito() {
     const getPececitoAsync = async() => {
         try {
-            const res = await fetch('fishes.json')
+            const res = await fetch('https://www.fishwatch.gov/api/species')
             const data = await res.json()
 
             imagenPececito = data.map(element => element["Species Illustration Photo"].src)
@@ -33,17 +33,3 @@ function getPececito() {
     getPececitoAsync()
 
 }
-
-
-ScrollReveal().reveal('.pregunta', {
-    delay: 500,
-    duration: 1500,
-    origin: "top",
-    distance: "200px"
-})
-
-ScrollReveal().reveal('.btn', {
-    delay: 1000,
-    duration: 2500,
-
-})
