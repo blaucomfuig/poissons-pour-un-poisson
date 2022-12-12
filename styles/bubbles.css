@@ -1,0 +1,195 @@
+.bubble--type--A {
+    border-radius: 50%;
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    top: 100%;
+    animation-name: jump;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
+.bubble--type--B {
+    border-radius: 50%;
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    top: 100%;
+    animation-name: jump2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.bubble--type--C {
+    border-radius: 50%;
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    top: 100%;
+    animation-name: jump3;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+.bubble--type--D {
+    border-radius: 50%;
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    top: 100%;
+    animation-name: jump4;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+#bubble-one {
+    background: linear-gradient(35deg,
+            #01a5cea1,
+            #7dfbff85);
+    left: 25%;
+    animation-timing-function: linear;
+}
+
+#bubble-two {
+    background: linear-gradient(35deg,
+            #01a5cea1,
+            #7dfbff85);
+    left: 50%;
+    animation-timing-function: ease-out;
+}
+
+#bubble-three {
+    background: linear-gradient(35deg,
+            #01a5cea1,
+            #7dfbff85);
+    left: 75%;
+    animation-timing-function: ease-out
+}
+
+#bubble-four {
+    background: linear-gradient(35deg,
+            #01a5cea1,
+            #7dfbff85);
+    left: 11%;
+    animation-timing-function: linear
+}
+
+#bubble-five {
+    background: linear-gradient(35deg,
+            #01a5cea1,
+            #7dfbff85);
+    left: 85%;
+    animation-timing-function: ease-in-out
+}
+
+#bubble-six {
+    background: linear-gradient(35deg,
+            #01a5cea1,
+            #7dfbff85);
+    left: 60%;
+    animation-timing-function: linear
+}
+
+#bubble-seven {
+    background: linear-gradient(35deg,
+            #01a5cea1,
+            #7dfbff85);
+    left: 99%;
+    animation-timing-function: linear
+}
+
+#bubble-eight {
+    background: linear-gradient(35deg,
+            #01a5cea1,
+            #7dfbff85);
+    left: 85%;
+    animation-timing-function: ease-in
+}
+
+#bubble-nine {
+    background: linear-gradient(35deg,
+            #01a5cea1,
+            #7dfbff85);
+    left: 85%;
+    animation-timing-function: ease-out
+}
+
+#bubble-ten {
+    background: linear-gradient(35deg,
+            #01a5cea1,
+            #7dfbff85);
+    left: 15%;
+    animation-timing-function: ease-out
+}
+
+#bubble-eleven {
+    background: linear-gradient(35deg,
+            #01a5cea1,
+            #7dfbff85);
+    left: 50%;
+    animation-timing-function: ease-in
+}
+
+#bubble-twelve {
+    background: linear-gradient(35deg,
+            #01a5cea1,
+            #7dfbff85);
+    left: 61%;
+    animation-timing-function: linear
+}
+
+#bubble-thirteen {
+    background: linear-gradient(35deg,
+            #01a5cea1,
+            #7dfbff85);
+    left: 23%;
+    animation-timing-function: ease-out
+}
+
+@keyframes jump {
+    50% {
+        top: -50%;
+    }
+
+    100% {
+        top: -100%;
+    }
+}
+
+@keyframes jump2 {
+    0% {
+        top: -110%;
+    }
+
+    80% {
+        top: -70%;
+    }
+
+    100% {
+        top: -100%;
+    }
+}
+
+@keyframes jump3 {
+    0% {
+        top: -110%;
+    }
+
+    50% {
+        top: -80%;
+    }
+
+    100% {
+        top: -100%;
+    }
+}
+
+@keyframes jump4 {
+    50% {
+        top: -50%;
+    }
+
+    100% {
+        top: -100%;
+    }
+}
